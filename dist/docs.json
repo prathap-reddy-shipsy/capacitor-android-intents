@@ -1,0 +1,68 @@
+{
+  "api": {
+    "name": "CapacitorIntentsPlugin",
+    "slug": "capacitorintentsplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "registerBroadcastReceiver",
+        "signature": "(options: { filters: string[]; }, callback: (data: { [key: string]: any; }) => void) => any",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ filters: {}; }"
+          },
+          {
+            "name": "callback",
+            "docs": "",
+            "type": "(data: { [key: string]: any; }) => void"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "registerbroadcastreceiver"
+      },
+      {
+        "name": "unregisterBroadcastReceiver",
+        "signature": "(options: { id: string; }) => any",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ id: string; }"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "unregisterbroadcastreceiver"
+      },
+      {
+        "name": "sendBroadcastIntent",
+        "signature": "(options: { action: string; value: { [key: string]: any; }; }) => any",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ action: string; value: { [key: string]: any; }; }"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "sendbroadcastintent"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}

@@ -11,8 +11,6 @@ npx cap sync
 
 ## Usage
 
-See `example-app` in `packages` folder.
-
 ## API
 
 <docgen-index>
