@@ -89,7 +89,7 @@ public class CapacitorIntents extends Plugin {
                 }
             );
 
-            this.getContext().registerReceiver(receiverMap.get(callBackID), ifilt);
+            this.getContext().registerReceiver(receiverMap.get(callBackID), ifilt, Context.RECEIVER_EXPORTED);
         } else {
             call.reject("Filters are required: at least 1 entry");
         }
